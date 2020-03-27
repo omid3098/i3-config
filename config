@@ -225,8 +225,9 @@ hide_edge_borders both
 # finds out, if available)
 
 bar {
+    status_command    i3blocks -c ~/.config/i3/i3blocks.conf 
+
     # output            LVDS1
-    status_command    i3blocks -c ~/.config/i3/i3blocks.conf
     # position          top
     # mode              hide
     # workspace_buttons yes
@@ -245,12 +246,8 @@ bar {
     }
 }
 
-exec_always feh --bg-scale ~/Pictures/wallpaper.jpg
-exec sudo illall tor
-exec sudo killall anbox
-exec sudo killall snapd
-exec sudo killall anydesk
-
+exec "setxkbmap -layout us,ir"
+exec "setxkbmap -option 'grp:alt_shift_toggle'"
 
 
 # Pulse Audio controls
