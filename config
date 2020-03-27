@@ -140,16 +140,26 @@ bindsym $mod+Shift+8 move container to workspace $wk8
 bindsym $mod+Shift+9 move container to workspace $wk9
 bindsym $mod+Shift+0 move container to workspace $wk10
 
-assign [class="Code"] 			$wk4
+assign [class="Firefox"]		$wk1
+assign [class="firefox"]		$wk1
+
+assign [class="Xfce4-terminal"]		$wk2
+assign [class="X-terminal-emulator"]	$wk2
+
 assign [class="UnityHub"]		$wk3 
 assign [class="Unity"]			$wk3
-assign [class="Firefox"]		$wk1
-assign [class="Xfce4-terminal"]	$wk2
-assign [class="X-terminal-emulator"]	$wk2
+
+assign [class="Code"] 			$wk4
+assign [class="Emacs"]      $wk4
+
+assign [class="Thunar"]		$wk5
+assign [class="Nemo"]		$wk5
+
 assign [class="ICE-SSB-whatsapp"]	$wk9
 assign [class="TelegramDesktop"]	$wk9
+
 assign [class="Spotify"]		$wk10
-assign [class="Emacs"]      $wk4
+
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
