@@ -269,8 +269,10 @@ bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
-
 bindsym $mod+space exec xfce4-appfinder
+
+# PrintScreen with flameshot
+bindsym Print exec flameshot gui
 
 
 for_window [class="^.*"] border pixel 0
