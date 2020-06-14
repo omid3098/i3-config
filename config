@@ -99,11 +99,11 @@ set $wk1 "1:   "
 set $wk2 "2:   "
 set $wk3 "3:   "
 set $wk4 "4:   "
-set $wk5 "5:  "
-set $wk6 "6:"
+set $wk5 "5:   "
+set $wk6 "6:  "
 set $wk7 "7:"
-set $wk8 "8:"
-set $wk9 "9:   "
+set $wk8 "8:   "
+set $wk9 "9:   "
 set $wk10 "10:  "
 # set $wk1 
 # set $wk2 
@@ -150,10 +150,16 @@ assign [class="UnityHub"]		$wk3
 assign [class="Unity"]			$wk3
 
 assign [class="Code"] 			$wk4
-assign [class="Emacs"]      $wk4
+assign [class="Emacs"]     		$wk4
 
-assign [class="Thunar"]		$wk5
-assign [class="Nemo"]		$wk5
+assign [class="Thunar"]			$wk5
+assign [class="Nemo"]			$wk5
+
+assign [class="Lutris"]	        	$wk8
+assign [class="battle.net.exe"] 	$wk8
+assign [class="Wine"]       		$wk8
+assign [class="heroesofthestorm_x64.exe"]		$wk8
+assign [class="Wine"]       		$wk8
 
 assign [class="ICE-SSB-whatsapp"]	$wk9
 assign [class="TelegramDesktop"]	$wk9
